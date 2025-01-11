@@ -17,7 +17,7 @@ function SignIn() {
             <h1 className="card-title mb-10 ml-[10%] font-extrabold text-3xl text-black">Sign in</h1>
           </div>
           <div className='flex justify-center'>
-            <h1 className="card-title font-extrabold text-2xl absolute bottom-48 text-black">OR</h1>
+            <h1 className="card-title font-extrabold text-2xl absolute bottom-48 text-black">O R</h1>
           </div>
           <div className='flex justify-end'>
             <h1 className="card-title mr-[10%] font-extrabold text-3xl absolute top-20 text-black">Hello</h1>
@@ -32,7 +32,7 @@ function SignIn() {
                 type="email"
                 id="email"
                 placeholder=' '
-                className="bg-white w-1/3 px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
+                className="bg-white w-[45%] px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
               />
               <label
                 htmlFor="email"
@@ -46,7 +46,7 @@ function SignIn() {
                 type="password"
                 id="password"
                 placeholder=' '
-                className="bg-white w-1/3 px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
+                className="bg-white w-[45%] px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
               />
               <label
                 htmlFor="password"

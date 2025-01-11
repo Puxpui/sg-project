@@ -50,7 +50,7 @@ function Shop() {
 
       {visibleProducts < products.length && (
         <div className="flex justify-center mt-12">
-          <div onClick={showMoreProducts} className='text-black cursor-pointer card h-12 w-32 bg-primary btn rounded-full shadow-lg border border-neutral flex justify-center items-center'>
+          <div onClick={showMoreProducts} className='text-white cursor-pointer card h-12 w-32 bg-primary btn rounded-full shadow-lg border border-neutral flex justify-center items-center'>
             Show More
           </div>
         </div>

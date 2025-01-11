@@ -32,7 +32,7 @@ function SignUp() {
                 type="username"
                 id="username"
                 placeholder=' '
-                className="bg-white w-1/3 px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
+                className="bg-white w-[45%] px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
               />
               <label
                 htmlFor="username"
@@ -46,7 +46,7 @@ function SignUp() {
                 type="email"
                 id="email"
                 placeholder=' '
-                className="bg-white w-1/3 px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
+                className="bg-white w-[45%] px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
               />
               <label
                 htmlFor="email"
@@ -60,13 +60,27 @@ function SignUp() {
                 type="password"
                 id="password"
                 placeholder=' '
-                className="bg-white w-1/3 px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
+                className="bg-white w-[45%] px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
               />
               <label
                 htmlFor="password"
                 className="bg-white absolute left-4 -top-3.5 text-gray-600 bg-base-100 px-1 transition-all duration-200 peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-gray-400 peer-focus:-top-3.5 peer-focus:text-primary"
               >
                 Enter your password
+              </label>
+            </div>
+            <div className="relative">
+              <input
+                type="password"
+                id="password"
+                placeholder=' '
+                className="bg-white w-[45%] px-4 py-2 border border-gray-300 bg-base-100 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary text-primary peer"
+              />
+              <label
+                htmlFor="password"
+                className="bg-white absolute left-4 -top-3.5 text-gray-600 bg-base-100 px-1 transition-all duration-200 peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-gray-400 peer-focus:-top-3.5 peer-focus:text-primary"
+              >
+                Confirm your password
               </label>
             </div>
           </div>
