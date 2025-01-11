@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 function Shop() {
-  const products = Array(120).fill({ details: 'Hello this is product details', cate: 'Test category', tsell: '999', price: '999' }); // Mock 12 products for demonstration
-  const [visibleProducts, setVisibleProducts] = useState(6); 
+  const products = Array(120).fill({ details: 'Hello this is product details', cate: 'Test category', tsell: '999', price: '999' });
+  const [visibleProducts, setVisibleProducts] = useState(6);
 
   const showMoreProducts = () => {
     setVisibleProducts((prev) => prev + 24);
@@ -39,7 +39,7 @@ function Shop() {
 
       <h1 className='mt-[5%] text-2xl font-bold ml-20'>All Products</h1>
       <div className='grid grid-cols-6 gap-5 justify-center mt-5 ml-[6%] mr-[6%]'>
-        {products.slice(0, visibleProducts).map((product, index) => ( 
+        {products.slice(0, visibleProducts).map((product, index) => (
           <div key={index} className='flex flex-col items-center bg-neutral shadow pt-3 pl-3 pr-3 pb-3 rounded-lg'>
             <div className='card h-40 w-40 bg-base-100'></div>
             <div className='text-sm font-semibold mt-2'>{product.details}</div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
         <br />thus benefiting the environment in two ways and establishing our website as a leading platform for promoting a better environment.
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

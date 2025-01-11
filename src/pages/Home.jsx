@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 function HomePage() {
   const navigate = useNavigate();
 
-const handleSignUp = () => {
-  navigate('/signin');
-};
+  const handleSignUp = () => {
+    navigate('/signin');
+  };
 
   const products = Array(6).fill({ details: 'Hello this is product details', cate: 'Test category', tsell: '999', price: '999' });
 
