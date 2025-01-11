@@ -23,7 +23,7 @@ function SignIn() {
             <h1 className="card-title mr-[10%] font-extrabold text-3xl absolute top-20 text-black">Hello</h1>
             <p className='text-lg absolute pt-2.5 mr-[2.5%] text-center font-bold text-black'>Don't Have an Account?<br />sign up here</p>
             <div className="card-actions flex justify-end pt-20 absolute mr-[9%]">
-              <button onClick={handleSignUp} className="absolute btn bg-base text-base font-bold w-24 top-28">Sign up</button>
+              <button onClick={handleSignUp} className="absolute btn bg-base text-base font-bold w-24 top-28 ">Sign up</button>
             </div>
           </div>
           <div className='flex flex-col gap-5'>
@@ -61,7 +61,7 @@ function SignIn() {
             <dialog id="forgot" className="modal">
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Forgot your password?!</h3>
-                <p className="py-4">โง่แค่นี้ก็จำไม่ได้</p>
+                <p className="py-4">WHY!!</p>
               </div>
               <form method="dialog" className="modal-backdrop">
                 <button>close</button>
@@ -69,7 +69,7 @@ function SignIn() {
             </dialog>
           </div>
           <div className="card-actions justify-start">
-            <button className="flex item-start btn bg-base ml-[10%] text-base font-bold w-24">Sign in</button>
+            <button className="flex item-start btn bg-base ml-[10%] text-base font-bold w-24 ">Sign in</button>
           </div>
         </div>
       </div>

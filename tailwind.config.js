@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        itim: ['Itim', 'cursive'],
+      },
       fontSize: {
         xxxs: '10px', // Custom font size
       },

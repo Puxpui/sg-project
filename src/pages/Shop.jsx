@@ -9,9 +9,9 @@ function Shop() {
   };
 
   return (
-    <div>
+    <div className=''>
       <div>
-        <h1 className='mt-[10%] text-2xl font-bold ml-20 select-none'>Category</h1>
+        <h1 className='mt-[10%] text-2xl font-bold ml-20 select-none font-itim'>Category</h1>
         <div className='grid grid-cols-6 gap-5 justify-center mt-5 ml-[12%] mr-[12%] select-none'>
           {products.slice(0, 6).map((product, index) => (
             <div key={index} className=''>
@@ -25,7 +25,7 @@ function Shop() {
         </div>
       </div>
 
-      <h1 className='mt-[10%] text-2xl font-bold ml-20'>Top sell</h1>
+      <h1 className='mt-[10%] text-2xl font-bold ml-20 font-itim'>Top sell</h1>
       <div className='grid grid-cols-6 gap-5 justify-center mt-5 ml-[6%] mr-[6%]'>
         {products.slice(0, 6).map((product, index) => (
           <div key={index} className='flex flex-col items-center bg-neutral shadow pt-3 pl-3 pr-3 pb-3 rounded-lg'>
@@ -37,7 +37,7 @@ function Shop() {
         ))}
       </div>
 
-      <h1 className='mt-[5%] text-2xl font-bold ml-20'>All Products</h1>
+      <h1 className='mt-[5%] text-2xl font-bold ml-20 font-itim'>All Products</h1>
       <div className='grid grid-cols-6 gap-5 justify-center mt-5 ml-[6%] mr-[6%]'>
         {products.slice(0, visibleProducts).map((product, index) => (
           <div key={index} className='flex flex-col items-center bg-neutral shadow pt-3 pl-3 pr-3 pb-3 rounded-lg'>
@@ -50,7 +50,7 @@ function Shop() {
 
       {visibleProducts < products.length && (
         <div className="flex justify-center mt-12">
-          <div onClick={showMoreProducts} className='text-white cursor-pointer card h-12 w-32 bg-primary btn rounded-full shadow-lg border border-neutral flex justify-center items-center'>
+          <div onClick={showMoreProducts} className='font-itim text-white cursor-pointer card h-12 w-32 bg-primary btn rounded-full shadow-lg border border-neutral flex justify-center items-center'>
             Show More
           </div>
         </div>

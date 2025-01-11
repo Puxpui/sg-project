@@ -23,7 +23,7 @@ function SignUp() {
             <h1 className="card-title mr-[10%] font-extrabold text-3xl absolute top-30 text-black">Hello</h1>
             <p className='text-lg absolute pt-[7%] mr-[2.5%] text-center font-bold text-black'>Already Have an Account?<br />sign in here</p>
             <div className="card-actions flex justify-end absolute mr-[9%]">
-              <button onClick={handleSignUp} className="absolute btn bg-base text-base font-bold w-24 top-36">Sign in</button>
+              <button onClick={handleSignUp} className="absolute btn bg-base text-base font-bold w-24 top-36 ">Sign in</button>
             </div>
           </div>
           <div className='flex flex-col gap-5'>
@@ -85,7 +85,7 @@ function SignUp() {
             </div>
           </div>
           <div className="card-actions justify-start mt-10">
-            <button className="flex item-start btn bg-base ml-[10%] text-base font-bold w-24">Sign up</button>
+            <button className="flex item-start btn bg-base ml-[10%] text-base font-bold w-24 ">Sign up</button>
           </div>
         </div>
       </div>
